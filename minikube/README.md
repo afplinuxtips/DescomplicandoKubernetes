@@ -24,4 +24,17 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 minikube version
 minikube --help
 rm minikube-linux-amd64
+minikube start
+```
+
+- Using minikube:
+
+```shell
+kubectl get nodes
+kubectl get pods
+kubectl get deployment --all-namespaces
+minikube ip
+minikube ssh
+docker container ls
+minikube stop
 ```
